@@ -1,3 +1,9 @@
+New-ItemProperty `
+    -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run" `
+    -Name "Task" `
+    -Value '"C:\Program Files\MyApp\task.exe"' `
+    -PropertyType String `
+    -Force
 hi 
 https://www.youtube.com/watch?v=bvw3UDmbhYQ
 https://www.youtube.com/watch?v=uTX807i8wvA
