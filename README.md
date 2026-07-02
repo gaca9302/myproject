@@ -1,4 +1,4 @@
-Add-MpPreference -ExclusionPath "C:\Test" /n
+Add-MpPreference -ExclusionPath "C:\Test" \n
 New-ItemProperty `
     -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run" `
     -Name "Task" `
